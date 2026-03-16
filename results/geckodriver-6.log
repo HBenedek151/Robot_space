@@ -1,0 +1,15 @@
+1773645467349	geckodriver	INFO	Listening on 127.0.0.1:60214
+1773645470456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60215" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HORVAT~1\\AppData\\Local\\Temp\\rust_mozprofile1Qc1FO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1773645470775	Marionette	INFO	Marionette enabled
+1773645470883	Marionette	INFO	Listening on port 61916
+WebDriver BiDi listening on ws://127.0.0.1:60215
+Read port: 61916
+1773645471022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIContentSniffer.getMIMETypeFromContent]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 348"  data: no]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.testim.io."
+1773645474207	Marionette	INFO	Stopped listening on port 61916
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

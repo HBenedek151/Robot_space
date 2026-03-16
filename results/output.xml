@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-03-16T09:07:14.916147" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot space" source="C:\Users\horvathbenedek\Documents\GitHub\Robot_space">
+<suite id="s1-s1" name="Space" source="C:\Users\horvathbenedek\Documents\GitHub\Robot_space\space.robot">
+<test id="s1-s1-t1" name="login without credentials" line="36">
+<kw name="Open Browser To Login Page">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-16T09:07:15.206500" level="INFO">Opening browser 'Firefox' to base url 'https://demo.testim.io/'.</msg>
+<msg time="2026-03-16T09:07:23.586289" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2026-03-16T09:07:23.586638" level="FAIL">WebDriverException: Message: Failed to decode response from marionette
+</msg>
+<arg>https://demo.testim.io/</arg>
+<arg>Firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2026-03-16T09:07:15.206004" elapsed="8.450628">WebDriverException: Message: Failed to decode response from marionette
+</status>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2026-03-16T09:07:23.656906" elapsed="0.000143"/>
+</kw>
+<status status="FAIL" start="2026-03-16T09:07:15.204663" elapsed="8.452557">WebDriverException: Message: Failed to decode response from marionette
+</status>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="app"]/div/header/div/div[2]/ul/li/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-03-16T09:07:23.657566" elapsed="0.000126"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>//*[@id="app"]/div/section[3]/div/div[2]/div/nav/button[2]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-03-16T09:07:23.657978" elapsed="0.000123"/>
+</kw>
+<kw name="Location Should Be" owner="SeleniumLibrary">
+<arg>https://demo.testim.io/login</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<status status="NOT RUN" start="2026-03-16T09:07:23.658387" elapsed="0.000122"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2026-03-16T09:07:23.658775" elapsed="0.000123"/>
+</kw>
+<status status="FAIL" start="2026-03-16T09:07:15.200389" elapsed="8.458845">WebDriverException: Message: Failed to decode response from marionette
+</status>
+</test>
+<status status="FAIL" start="2026-03-16T09:07:14.963436" elapsed="8.706284"/>
+</suite>
+<status status="FAIL" start="2026-03-16T09:07:14.921080" elapsed="8.752506"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Robot space" id="s1" pass="0" fail="1" skip="0">Robot space</stat>
+<stat name="Space" id="s1-s1" pass="0" fail="1" skip="0">Robot space.Space</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
